@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="backend.php">
+        <h2>HTML FORM MAKING</h2>
+        <label for="n">NAME</label>
+        <div>
+            <input type="text" name="name" id="n" placeholder="username">
+        </div> <br>
+
+        <label for="p">PHONE NUMBER</label>
+        <div>
+            <input type="number" name="nmbr" id="p">
+        </div> <br>
+
+        <div>
+            IMPOERTED YES<input type="radio" name="imp"> NO <input type="radio" name="imp" id="ip">
+        </div><br>
+
+        <label for="e"> EMAIL</label>
+        <div>
+            <input type="email" name="email" id="e">
+        </div><br>
+
+        <div>
+
+            DATE <input type="date" name="date" id="">
+        </div><br>
+        <label for="c">CAR TYPE</label>
+        <div>
+
+            <select name="car" id="c">
+                <option value="c0">--SELECT--</option>
+                <option value="c1">TOYOTA</option>
+                <option value="c1">HONDA</option>
+                <option value="c1">KIA</option>
+            </select>
+        </div><br>
+
+        <label for="ps">HIDDEN</label>
+        <div>
+            <input type="password" name="pass" id="ps">
+        </div><br>
+
+        <label for="m">MODEL </label>
+        <div>
+
+            <input type="number" name="model" id="m">
+        </div><br>
+        <label for="l">LOCATION</label>
+        <div>
+
+            <input type="text" name="place" id="l">
+        </div><br>
+        <label for="pr"> PRICE </label>
+        <div>
+
+            <input type="number" name="price" id="pr">
+        </div><br>
+        <label for="t"> COMMENT </label>
+        <div>
+
+            <br><textarea name="area" id="t" cols="70" rows="10" placeholder="write about something"></textarea>
+        </div><br>
+
+        <input type="checkbox" name="" id=" "> I entered all info correctly
+        <div><br>
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+        </div>
+
+
+
+    </form>
+
+
+</html>
